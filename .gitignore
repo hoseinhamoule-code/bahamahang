@@ -1,0 +1,27 @@
+# 🔐 اطلاعات حساس — هرگز آپلود نشوند
+.env
+config.env
+*.token
+credentials.json
+
+# 💾 دیتابیس و فایل‌های اجرایی
+*.db
+*.sqlite3
+*.log
+downloads/
+music/
+temp/
+
+# 🐍 پایتون
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 🖥 سیستم‌عامل و ادیتور
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
